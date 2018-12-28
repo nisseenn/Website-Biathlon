@@ -1,0 +1,27 @@
+.timeline-wrapper {
+  background-color: rgba(39,62,84,0.82);
+  z-index: 2;
+}
+
+.highlights {
+  color:white !important;
+  text-align: center;
+}
+
+ .vertical-timeline-element-date {
+   text-align: left;
+ }
+
+ .p1 {
+   top: -100%;
+ }
+
+.vertical-timeline-element--lenz, .vertical-timeline-element--ober,
+.vertical-timeline-element--brez{
+  padding-bottom: 30px;
+}
+.vertical-timeline-element-date {
+font-weight: bold !important;
+color: #FFF !important;
+opacity: 1 !important;
+}

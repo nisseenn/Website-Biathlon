@@ -1,0 +1,50 @@
+.contact-wrapper {
+  background-color: #4069E5 !important;
+  padding-top: 10px;
+}
+
+.contact-info, .email, .email2, .feel-free {
+  color: #FFF;
+}
+
+.instagram {
+  background-color: #1B3C54;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.small-line2 {
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+.insta, .facebook{
+  width: 40px;
+  height: auto;
+  margin: 0.5rem 0.5em 0.5em 0;
+  display: inline-block;
+}
+
+.twitt {
+  width: 45px;
+  filter: brightness(0) invert(1);
+  height: auto;
+  margin: 0.5rem 0 0.3em 0;
+  display: inline-block;
+  color: black;
+}
+
+.linked {
+  width: 43px;
+  height: auto;
+  margin: 0.5rem 0em 0.5em 0;
+  display: inline-block;
+}
+
+.insta:hover, .facebook:hover, .linked:hover, .twitt:hover {
+  cursor: pointer;
+}

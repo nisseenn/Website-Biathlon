@@ -1,0 +1,36 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.6",
+    "@fortawesome/free-brands-svg-icons": "^5.4.1",
+    "@fortawesome/free-regular-svg-icons": "^5.4.1",
+    "@fortawesome/free-solid-svg-icons": "^5.4.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "instafeed": "^2.0.0",
+    "jump.js": "^1.0.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-icons": "^3.2.0",
+    "react-iframe": "^1.3.3",
+    "react-image-gallery": "^0.8.10",
+    "react-instagram-embed": "^1.4.0",
+    "react-parallax": "^1.8.0",
+    "react-reveal": "^1.2.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-scroll-parallax": "^1.3.5",
+    "react-scrollmagic": "^2.1.0",
+    "react-slideshow-image": "^1.0.0",
+    "react-timespan": "^1.0.0",
+    "react-vertical-timeline-component": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

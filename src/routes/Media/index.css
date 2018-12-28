@@ -1,0 +1,57 @@
+.media-edge {
+height: 100px;
+font-family: Raleway;
+padding-top: 50px;
+}
+
+.post-wrapper {
+padding-top: 40px;
+}
+
+.insta1, .insta2, .insta3, .insta4 {
+  display: inline-block;
+}
+
+.myId{
+    overflow:hidden;
+}
+.article1 {
+display: inline-block;
+}
+
+.insta-header {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.insta-wrappolini {
+  background-color: #EFF5F9;
+  padding-bottom: 30px;
+}
+
+.article1:hover {
+  cursor: pointer;
+  color: #2D2D2D;
+}
+
+.iframe-1, .iframe-2 {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.arrow {
+  position: relative;
+  top: -1px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    vertical-align: middle;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  display: inline-block;
+  transform: translate3d(5px, 0, 0);
+}

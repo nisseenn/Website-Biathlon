@@ -1,0 +1,187 @@
+.about-home-wrapper{
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+overflow-y: hidden;
+overflow-x: hidden;
+padding-bottom: 20px;
+}
+
+h3 {
+  color: #1E232B;
+}
+
+.text-wrapp {
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.herf-text {
+  color: #1E232B;
+}
+
+.herf-name-wrapper{
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+hr {
+  width: 60px;
+  height: 3px;
+  background: #1E232B;
+  border-color: #1E232B;
+
+}
+
+.bitboutme{
+color: #1E232B;
+font-size: 32px;
+}
+
+.biathlon-wrapper {
+  height: 250px;
+  display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+}
+
+.biathlon{
+  width: 150px;
+  position: relative;
+  top: 90px;
+}
+
+.circle {
+  position: absolute;
+  width: 70px;
+}
+
+.mountain {
+  position: absolute;
+  width: 150px;
+}
+
+.dream-wrappper{
+  width: 450px;
+  position: relative;
+  margin-left: auto;
+  top: -90px;
+  right: 250px;
+  z-index: 3;
+}
+.dream {
+font-size: 24px;
+}
+
+.girl-wrapper {
+  height: 200px;
+  display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 90px;
+
+  /* background-image: linear-gradient(to top, #d1fdff 0%, #a8edea 100%); */
+}
+
+.girl {
+  width: 100px;
+  position: relative;
+  top: -20px;
+}
+
+.football{
+  width: 60px;
+  position: absolute;
+}
+
+.ski {
+  width: 60px;
+  position: absolute;
+}
+
+.intro-wrap {
+  width: 450px;
+  position: relative;
+  margin-right: auto;
+  top: -135px;
+  left: 250px;
+  z-index: 3;
+}
+
+.intro{
+  font-size: 24px;
+}
+
+.heart-wrapper {
+  height: 200px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-image: linear-gradient(to top, #f5efef 0%, #d1fdff 100%); */
+}
+
+.heart {
+  width: 130px;
+}
+
+.baloon {
+  width: 100px;
+  position: relative;
+}
+
+.heart-text-wrap {
+  width: 450px;
+  position: relative;
+  margin-left: auto;
+  top: -220px;
+  right: 230px;
+  z-index: 3;
+}
+
+.heart-text {
+  font-size: 24px;
+}
+
+.ibu-season {
+  height: 200px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.ibu {
+  width: 250px;
+  position: relative;
+}
+
+.globe {
+  width: 95px;
+  position: absolute;
+}
+
+.ibu-text-wrap{
+  width: 450px;
+  position: relative;
+  margin-right: auto;
+  top: -120px;
+  left: 255px;
+  z-index: 3;
+}
+
+.ibu-text {
+  font-size: 24px;
+}
+
+
+.home-wrapper {
+  margin-top: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 750px;
+  margin:0 auto;
+  margin-bottom: 60px;
+  padding-top: 10px;
+  background-color: #EFF5F9 !important;
+}
