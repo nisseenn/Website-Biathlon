@@ -1,14 +1,40 @@
 .contact-wrapper {
-  background-color: #4069E5 !important;
-  padding-top: 10px;
+  padding-top: 50px;
+  background: white url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 400px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+.contact-info{
+  padding-bottom: 20px;
+  color: black !important;
+}
+
+.feel-free{
+  padding-bottom: 20px;
+  color: black !important;
+}
+
+.email2{
+  padding-bottom: 40px;
+    color: black !important;
 }
 
 .contact-info, .email, .email2, .feel-free {
-  color: #FFF;
+  color: grey;
 }
 
 .instagram {
-  background-color: #1B3C54;
   padding-top: 5px;
   padding-bottom: 10px;
   text-align: center;
@@ -18,30 +44,29 @@
   display: inline-block;
   width: 60px;
   height: 3px;
-  background: white;
+  background: grey;
   margin-bottom: 30px;
 }
 
 .insta, .facebook{
-  width: 40px;
+  width: 28px;
   height: auto;
-  margin: 0.5rem 0.5em 0.5em 0;
+  margin: 0.5rem 1em 0.5em 0.5em;
   display: inline-block;
 }
 
 .twitt {
-  width: 45px;
-  filter: brightness(0) invert(1);
+  width: 30px;
   height: auto;
-  margin: 0.5rem 0 0.3em 0;
+  margin: 0.5rem 0 0.5em 1em;
   display: inline-block;
   color: black;
 }
 
 .linked {
-  width: 43px;
+  width: 30px;
   height: auto;
-  margin: 0.5rem 0em 0.5em 0;
+  margin: 0.5rem 0em 0.5em 0.5em;
   display: inline-block;
 }
 

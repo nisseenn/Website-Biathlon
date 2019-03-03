@@ -1,4 +1,4 @@
- body {
+body {
 background-color: #FFF;
 }
 .edge{
@@ -49,6 +49,7 @@ top: 100px;
 
 .front-text{
   font-weight: normal !important;
+
   max-width:650px;
   padding-bottom: 30px;
   text-align:center;
@@ -109,7 +110,7 @@ top: 100px;
   height: 100px;
   font-family: Raleway;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
   background-color: #FFF !important;
 }
 
@@ -240,7 +241,7 @@ transition: width 0.5s, height 0.5s;
 }
 
 .pic-wrapper2 {
-  padding-bottom: 50px;
+  padding-bottom: 90px;
   background-color: #FFF !important;
 }
 

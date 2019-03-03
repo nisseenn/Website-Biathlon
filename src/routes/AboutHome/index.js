@@ -22,7 +22,7 @@ class AboutHome extends Component {
       <div className="about-home-wrapper">
         <ParallaxProvider>
           <div className="text-wrapp">
-            <h2 className="bitboutme">A bit about me</h2>
+            <h2 className="bitboutme">Here is my story</h2>
               <div className="herf-name-wrapper">
                 <Parallax
                   className="custom-class"

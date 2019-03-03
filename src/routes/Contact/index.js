@@ -4,6 +4,7 @@ import insta from './pictures/insta.png';
 import facebook from './pictures/facebook.png'
 import linkedin from './pictures/linked.png'
 import twitter from './pictures/twitter.png'
+import bananas from './pictures/bananas.png'
 
 class Contact extends Component {
   toInsta = () => {
@@ -22,10 +23,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-wrapper">
-        <h3 className="contact-info">Contact information</h3>
-          <div className="small-line2"></div><br />
-            <h4 className="feel-free">Feel free to contact me</h4>
-            <p className="email2">idaemilie.95@gmail.com</p>
+        <h1 className="contact-info">Contact Me</h1>
+            <h4 className="feel-free">Got anything you want to discuss? Feel free to contact me</h4>
+            <h4 className="email2">idaemilie.95@gmail.com</h4>
             <div className="instagram">
               <img src={insta} className="insta" onClick={this.toInsta}></img>
               <img src={facebook} className="facebook" onClick={this.toFacebook}></img>

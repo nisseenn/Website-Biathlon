@@ -9,6 +9,11 @@ import planhuset from './pictures/planhuset.png'
 import madshus from './pictures/madshus.jpg'
 import alpina from './pictures/alpina.png'
 import marwe from './pictures/marwe.png'
+import vollestad from './pictures/voll.jpg'
+import gs from './pictures/gs.jpg'
+import gpn from './pictures/gpn.png'
+import byggi from './pictures/byggi.jpg'
+import point from './pictures/point.jpg'
 
 class Sponsors extends Component {
   toTsgr = () => {
@@ -38,12 +43,9 @@ class Sponsors extends Component {
   render() {
     return (
     <div className="edge-sponsors">
-      <div className="Sponsors" id="sponsors">
-          <h1 className="App-title">PARTNERS</h1>
-            <div className="small-line"></div><br />
+      <h1 className="App-title">Check out my partners</h1>
           <h3 className="front-text2">
             Thanks to my partners who make it possible to persue my goals
-            <br />
           </h3>
           <div className="pic-wrapper">
           <Fade>
@@ -104,8 +106,35 @@ class Sponsors extends Component {
               <p className="alpina-text">TS Group specializes in ...</p>
             </div>
           </Fade>
+          <Fade>
+            <div className="vollestad-wrapper">
+              <img className="partner9" onClick={this.toVollestad} src={vollestad} />
+              <br />
+              <p className="alpina-text">Vøllestad ...</p>
+            </div>
+          </Fade>
+          <Fade>
+            <div className="gs-wrapper">
+              <img className="partner10" onClick={this.toGs} src={gs} />
+              <br />
+              <p className="alpina-text">GS ...</p>
+            </div>
+          </Fade>
+          <Fade>
+            <div className="gpn-wrapper">
+              <img className="partner11" onClick={this.toGpn} src={gpn} />
+              <br />
+              <p className="alpina-text">GPN ...</p>
+            </div>
+          </Fade>
+          <Fade>
+            <div className="byggi-wrapper">
+              <img className="partner12" onClick={this.toByggi} src={byggi} />
+              <br />
+              <p className="alpina-text">Byggi ...</p>
+            </div>
+          </Fade>
         </div>
-      </div>
     </div>
     );
   }

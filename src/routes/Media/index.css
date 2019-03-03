@@ -1,7 +1,23 @@
+iframe {
+-moz-box-shadow: 2px 2px 7px #000;
+-webkit-box-shadow: 2px 2px 7px #000;
+box-shadow: 2px 2px 7px #000;
+}
+
 .media-edge {
 height: 100px;
 font-family: Raleway;
 padding-top: 50px;
+}
+
+.inmedia {
+color: black;
+font-size: 35px;
+}
+
+.description {
+  color: black;
+  padding-bottom: 40px;
 }
 
 .post-wrapper {
@@ -10,6 +26,7 @@ padding-top: 40px;
 
 .insta1, .insta2, .insta3, .insta4 {
   display: inline-block;
+  padding: 20px;
 }
 
 .myId{
@@ -17,17 +34,19 @@ padding-top: 40px;
 }
 .article1 {
 display: inline-block;
+color: black;
 }
 
 .insta-header {
-  padding-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
   position: relative;
+  color: black;
 }
 
 .insta-wrappolini {
   background-color: #EFF5F9;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .article1:hover {
@@ -38,6 +57,7 @@ display: inline-block;
 .iframe-1, .iframe-2 {
   display: inline-block;
   padding-bottom: 20px;
+  margin: 5px 25px 5px 5px;
 }
 
 .arrow {

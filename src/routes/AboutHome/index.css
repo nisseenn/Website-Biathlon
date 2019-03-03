@@ -1,5 +1,9 @@
 .about-home-wrapper{
-background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+/* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+/* background: rgb(222,200,218);
+background: linear-gradient(0deg, rgba(222,200,218,1) 0%, rgba(255,228,239,1) 49%, rgba(255,255,255,1) 100%); */
+background: rgb(255,247,221);
+background: linear-gradient(0deg, rgba(255,247,221,1) 0%, rgba(255,246,228,1) 49%, rgba(255,249,243,0.742734593837535) 100%);
 overflow-y: hidden;
 overflow-x: hidden;
 padding-bottom: 20px;

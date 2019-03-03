@@ -12,6 +12,7 @@ class Media extends Component {
  this.ifr.contentWindow.postMessage('hello', "*");
  }
 }
+
 componentDidMount() {
  window.addEventListener("message", this.handleFrameTasks);
  }
@@ -40,43 +41,43 @@ componentDidMount() {
   render() {
     return (
     <div className="edge">
-      <h1>In media</h1>
-      <p>Take a look at some of the articles I am mentioned in</p>
+      <h1 className="inmedia">In media</h1>
+      <h3 className="description">Take a look at some of the articles I am mentioned in</h3>
       <div className="post-wrapper">
       <div className="iframe-wrapper">
         <div className="iframe-1">
-        <iframe src ="https://www.ta.no/skiskyting/ida-emilie-herfoss/sport/lyktes-i-siste-nm-forsok/s/5-50-186034" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+        <iframe src ="https://www.ta.no/skiskyting/ida-emilie-herfoss/sport/lyktes-i-siste-nm-forsok/s/5-50-186034?wmode=opaque" allowtransparency="true" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
         <p className="article1" onClick={this.toArticle1}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>
       </div>
       <div className="iframe-2">
-      <iframe src ="      https://www.ta.no/skiskyting/ida-emilie-herfoss/drangedal/mye-motgang-endelig-losnet-det/s/5-50-176894" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+      <iframe src ="https://www.ta.no/skiskyting/ida-emilie-herfoss/drangedal/mye-motgang-endelig-losnet-det/s/5-50-176894" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
       <p className="article1" onClick={this.toArticle2}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>
       </div>
       <div className="iframe-2">
-      <iframe src ="      https://www.kv.no/nyheter/sport/ida-emilie-herfoss/ida-emilie-fikk-stipend-pa-40-000-kroner-av-fylket/s/5-63-108530" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+      <iframe src ="      https://www.kv.no/nyheter/sport/ida-emilie-herfoss/ida-emilie-fikk-stipend-pa-40-000-kroner-av-fylket/s/5-63-108530" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
       <p className="article1" onClick={this.toArticle3}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>
       </div>
       <br />
       <div className="iframe-2">
-      <iframe src ="      https://www.kv.no/skiskyting/sport/ida-emilie-herfoss/ida-emilie-pa-fjerdeplass-i-norgescupen/s/5-63-92740" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+      <iframe src ="      https://www.kv.no/skiskyting/sport/ida-emilie-herfoss/ida-emilie-pa-fjerdeplass-i-norgescupen/s/5-63-92740" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
       <p className="article1" onClick={this.toArticle4}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>
       </div>
       <div className="iframe-2">
-      <iframe src ="          http://media.skiskyting.no/pressreleases/laguttak-wc-oberhof-og-ruhpolding-og-ibu-cup-brezno-osrblie-2343272" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+      <iframe src ="          http://media.skiskyting.no/pressreleases/laguttak-wc-oberhof-og-ruhpolding-og-ibu-cup-brezno-osrblie-2343272" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
       <p className="article1" onClick={this.toArticle5}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>
       </div>
       <div className="iframe-2">
-      <iframe src ="            http://media.skiskyting.no/pressreleases/laguttak-wc-le-grand-bornand-og-ibu-cup-obertilliach-2325880" sandbox="allow-scripts" height="350px" width="350px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
+      <iframe src ="            http://media.skiskyting.no/pressreleases/laguttak-wc-le-grand-bornand-og-ibu-cup-obertilliach-2325880" sandbox="allow-scripts" height="300px" width="320px" scrolling="no" frameborder="0" ref={(f) => this.ifr = f } />
       <div className="article-text-wrapper">
       <p className="article1" onClick={this.toArticle6}>See full article {<FaArrowRight className="arrow"/>}</p>
       </div>

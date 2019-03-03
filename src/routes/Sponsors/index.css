@@ -1,27 +1,24 @@
 .edge-sponsors {
-  height: 100px;
   font-family: Raleway;
   text-align: center;
   padding-bottom: 90px;
   background-color: #FFF !important;
 }
 
-.small-line {
-  display: inline-block;
-  width: 50px;
-  height: 3px;
-  background: grey;
+.App-title {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
-.Sponsors{
+/* .Sponsors{
 height: 100px;
 font-family: Raleway;
 text-align: center;
-padding-top: 50px;
 padding-bottom: 60px;
 width: 100%;
 background-color: #FFF !important;
-}
+} */
 
 .partnerOne {
 display: inline-block;
@@ -127,11 +124,65 @@ display: inline-block;
   -webkit-transition: width 0.5s, height 0.5s;
   transition: width 0.5s, height 0.5s;
 }
+
+.partner9 {
+  display: inline-block;
+  background-size: 100% 100%;
+  margin: 1em;
+  height: 5em;
+  width: 13em;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  border-radius: 0.9em;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+.partner10 {
+  display: inline-block;
+  background-size: 100% 100%;
+  margin: 1em;
+  height: 9em;
+  width: 13em;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  border-radius: 0.9em;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+.partner11 {
+  display: inline-block;
+  background-size: 100% 100%;
+  margin: 1em;
+  height: 5em;
+  width: 13em;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  border-radius: 0.9em;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+.partner12 {
+  display: inline-block;
+  background-size: 100% 100%;
+  margin: 1em;
+  height: 4em;
+  width: 15em;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  border-radius: 0.9em;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
 .alpina-text {
   display: inline-block;
   position: relative;
   bottom: 20px;
   width: 500px;
+  color: black;
 }
 
 .plan-text {
@@ -139,6 +190,7 @@ display: inline-block;
   position: relative;
   bottom: 30px;
   width: 500px;
+  color: black;
 }
 
 .alliance-text {
@@ -146,14 +198,16 @@ display: inline-block;
   position: relative;
   bottom: 50px;
   width: 500px;
+  color: black;
 }
 
 .pic-wrapper {
   padding-bottom: 50px;
+  padding-top: 60px;
   background-color: #FFF !important;
 }
 
-.partnerOne:hover, .partnerTwo:hover, .partnerThree:hover, .partnerFour:hover, .partnerFive:hover, .partnerSix:hover, .partnerSeven:hover, .partnerEight:hover{
+.partnerOne:hover, .partnerTwo:hover, .partnerThree:hover, .partnerFour:hover, .partnerFive:hover, .partnerSix:hover, .partnerSeven:hover, .partnerEight:hover, .partner9:hover, .partner10:hover, .partner11:hover, .partner12:hover{
   cursor: pointer;
   filter: none;
  -webkit-filter: grayscale(0%);
@@ -167,10 +221,10 @@ left: 40px;
 top: 100px;
 }
 
-.alpina-wrap, .kvb-wrapper, .alliance-wrapper, .marwe-wrapper{
+.gpn-wrapper, .vollestad-wrapper, .alpina-wrap, .kvb-wrapper, .alliance-wrapper, .marwe-wrapper{
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 80px;
 }
-.dsb-wrapper, .planhuset-wrapper, .madshus-wrapper, .tsgr-wrapper {
+.byggi-wrapper, .gs-wrapper, .dsb-wrapper, .planhuset-wrapper, .madshus-wrapper, .tsgr-wrapper {
 display: inline-block;
 }

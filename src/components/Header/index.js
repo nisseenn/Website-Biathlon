@@ -10,10 +10,11 @@ import {
   Link
 } from 'react-router-dom'
 import { Parallax } from 'react-parallax'
-import bgHome from './her2.jpg'
-import bgComp from './heryherf.jpg'
+import bgComp from './her21.jpg'
+import bgHome from './heryherf.jpg'
 import italy from './italy.jpg'
-import ligg from './ligg.jpg'
+import ligg from './ligg1.jpg'
+import going from './going.jpg'
 
 class Header extends Component {
   constructor(props){
@@ -23,7 +24,6 @@ class Header extends Component {
     title: "IDA EMILIE HERFOSS"
   }
 }
-
   onClickComp = () => {
     this.setState({bgimg: bgComp})
     this.setState({title: "MEDIA"})
@@ -33,7 +33,7 @@ class Header extends Component {
     this.setState({title: "PARTNERS"})
   }
   onClickAbout = () => {
-    this.setState({bgimg: italy})
+    this.setState({bgimg: going})
     this.setState({title: "ABOUT"})
   }
   onClickHome = () => {
