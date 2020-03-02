@@ -5,10 +5,12 @@ The website contains animated SVGs to make the website more interactive to the u
 
 ## Front page
 The main menu, with animations as you scroll!
+
 ![3r643u](https://user-images.githubusercontent.com/20997734/75708620-75061d80-5cc1-11ea-9b89-5a1c49c3f484.gif)
 
 ## Partners
 Making the partners interesting to hover
+
 ![3r64xg](https://user-images.githubusercontent.com/20997734/75708981-22793100-5cc2-11ea-806c-7e831467d1ac.gif)
 
 ## Main page
